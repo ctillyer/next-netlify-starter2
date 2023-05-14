@@ -1,3 +1,9 @@
+import Head from 'next/head'
+import Header from '@components/Header'
+import Footer from '@components/Footer'
+
+export default function Home() {
+  return (
 <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
@@ -18,3 +24,5 @@
     <button type="submit">Send</button>
   </p>
 </form>
+)
+}
