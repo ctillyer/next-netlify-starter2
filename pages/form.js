@@ -4,25 +4,12 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-<form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-)
+        <form action="/send-data-here" method="post">
+          <label for="first">First name:</label>
+          <input type="text" id="first" name="first" />
+          <label for="last">Last name:</label>
+          <input type="text" id="last" name="last" />
+          <button type="submit">Submit</button>
+       </form>
+  )
 }
