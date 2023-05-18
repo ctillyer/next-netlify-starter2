@@ -17,6 +17,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 code {
@@ -32,4 +33,12 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
 }
