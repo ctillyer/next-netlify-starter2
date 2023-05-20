@@ -4,8 +4,8 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { useState, useEffect } from 'react';
 
-const lyric1 = ["purify my soul", "losing all control"];
-const lyric2 = ["- wash away my sins -", "- that's how it all begins -"];
+const lyric1 = ["geeking with my geekers", "freak but im a freaker"];
+const lyric2 = ["- sitting on the bleachers -", "- follow me like im the leader -"];
 
 
 export default function Home() {
