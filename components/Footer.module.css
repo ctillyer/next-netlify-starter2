@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 20px;
+  color: #1f1f1fb2
 }
 
 .logo {
