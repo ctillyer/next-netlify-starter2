@@ -28,19 +28,6 @@ const Header = () => {
           className={`nav__menu-bar`}
              >
         </div>
-        <div className={styles.nav__item}>
-          {MENU_LIST.map((menu, idx) => (
-            <div
-              onClick={() => {
-                setActiveIdx(idx);
-                setNavActive(false);
-              }}
-              key={menu.text}
-            >
-              <NavItems active={activeIdx === idx} {...menu} />
-            </div>
-          ))}
-          </div>
       </header>
     </>
   )
