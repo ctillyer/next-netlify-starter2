@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <p>tilllyer on discord. @tillyer on twitter</p>
+        <p>tillyer on discord. @tillyer on twitter</p>
       </footer>
     </>
   )
