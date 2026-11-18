@@ -1,0 +1,38 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 100%;
+  padding: 36px 34px 64px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.journal {
+  width: 100%;
+  max-width: 640px;
+  text-align: right;
+}
+
+.heading {
+  margin-bottom: 28px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.entry {
+  padding: 22px 0;
+  border-top: 1px solid #dedede;
+  font-size: 18px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 28px 20px 48px;
+  }
+}
